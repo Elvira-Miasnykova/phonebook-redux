@@ -1,15 +1,10 @@
 import { Container, Text, Title } from "./Home.styled";
-//import FormikField from "components/FormikField";
+
 import * as React from "react";
-//import Button from '@mui/material/Button';
-import { Box, Button} from "@mui/material";
+//import { Box} from "@mui/material";
 export const Home = () => {
     return (
         <Container>
-            <Box>
-                {/* <Button variant="contained" type="submit">
-                    Text</Button> */}
-                </Box>
             <Title>
                 Welcome to PhoneBook App
                 <span>&#9742;&#65039;</span>

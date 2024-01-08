@@ -1,9 +1,9 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
-import FormikField  from '../FormikField';
+//import FormikField  from '../FormikField';
 import { nanoid } from 'nanoid';
-import { Box } from "../Box";
-import { LabelStyled, InputStyled, ButtonStyled } from "./ContactsForm.styled";
+//import { Box } from "../Box";
+ import {  ButtonStyled } from "./ContactsForm.styled";
 import { useDispatch, useSelector } from "react-redux";
 import { addContact } from "redux/contacts/operations";
 import { getContacts } from "redux/contacts/selectors";
