@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const LabelStyled = styled.label`
     font-family: ${p => p.theme.fonts.body};

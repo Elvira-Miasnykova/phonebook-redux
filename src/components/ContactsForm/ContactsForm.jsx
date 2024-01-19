@@ -1,5 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
+import { TextField, Button } from '@mui/material';
 //import FormikField  from '../FormikField';
 import { nanoid } from 'nanoid';
 //import { Box } from "../Box";
@@ -60,33 +61,27 @@ export function ContactsForm() {
                 return (
                 <Form>
                 <Field
+                as={ TextField}
                     type="text"
                     name="name"
                     placeholder="Enter contacts name"
-                    // pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-                    // title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-                    // required
-                    // value={name}
-                    // onChange={handleChange}
+                    variant="standard"
                 />
                 <p>
                     <ErrorMessage name="name"/>
                 </p>
                 {/* <FormikField/> */}
                 <Field
+                as={ TextField}
                     type="tel"
                     name="number"
                     placeholder="Enter contacts number"
-                    // pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-                    // title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
-                    // required
-                    // value={number}
-                    // onChange={handleChange}
+                    variant="standard"
                 />
                 <p>
                     <ErrorMessage name="number"/>
                 </p>
-                <ButtonStyled disabled={!dirty || !isValid} type="submit">Add contact</ButtonStyled>
+                <Button disabled={!dirty || !isValid} type="submit">Add contact</Button>
             </Form>
             )
             }}

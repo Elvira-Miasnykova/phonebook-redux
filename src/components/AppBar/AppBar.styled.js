@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
  max-width: 960px;
