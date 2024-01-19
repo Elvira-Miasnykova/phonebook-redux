@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **Read in other languages: [Русский](README.md), [Polska](README.pl.md),
 [English](README.en.md), [Spanish](README.es.md).**
 
@@ -89,3 +90,6 @@
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+=======
+# phonebook-redux
+>>>>>>> 75eea761baa702149929f501ea5e48e9282b3d1c
