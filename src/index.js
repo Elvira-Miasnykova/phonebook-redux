@@ -14,7 +14,7 @@ import { ThemeProvider } from 'styled-components';
 import { theme} from './theme';
 import { BrowserRouter } from 'react-router-dom';
 import { PersistGate } from 'redux-persist/integration/react';
-import { HelmetProvider } from 'react-helmet-async';
+//import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
