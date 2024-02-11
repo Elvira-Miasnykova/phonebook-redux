@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/phonebook-redux/static/css/main.766dd710.css",
-    "main.js": "/phonebook-redux/static/js/main.4aa918c6.js",
+    "main.js": "/phonebook-redux/static/js/main.48526b55.js",
     "static/js/260.769f1c01.chunk.js": "/phonebook-redux/static/js/260.769f1c01.chunk.js",
     "static/js/628.8e5498aa.chunk.js": "/phonebook-redux/static/js/628.8e5498aa.chunk.js",
-    "static/js/437.6dc95f4d.chunk.js": "/phonebook-redux/static/js/437.6dc95f4d.chunk.js",
+    "static/js/437.8c93f8a9.chunk.js": "/phonebook-redux/static/js/437.8c93f8a9.chunk.js",
     "static/js/292.9e2fe9e0.chunk.js": "/phonebook-redux/static/js/292.9e2fe9e0.chunk.js",
     "static/js/270.ed3592b2.chunk.js": "/phonebook-redux/static/js/270.ed3592b2.chunk.js",
     "static/js/60.5d826acf.chunk.js": "/phonebook-redux/static/js/60.5d826acf.chunk.js",
@@ -42,16 +42,16 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/phonebook-redux/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/phonebook-redux/index.html",
     "main.766dd710.css.map": "/phonebook-redux/static/css/main.766dd710.css.map",
-    "main.4aa918c6.js.map": "/phonebook-redux/static/js/main.4aa918c6.js.map",
+    "main.48526b55.js.map": "/phonebook-redux/static/js/main.48526b55.js.map",
     "260.769f1c01.chunk.js.map": "/phonebook-redux/static/js/260.769f1c01.chunk.js.map",
     "628.8e5498aa.chunk.js.map": "/phonebook-redux/static/js/628.8e5498aa.chunk.js.map",
-    "437.6dc95f4d.chunk.js.map": "/phonebook-redux/static/js/437.6dc95f4d.chunk.js.map",
+    "437.8c93f8a9.chunk.js.map": "/phonebook-redux/static/js/437.8c93f8a9.chunk.js.map",
     "292.9e2fe9e0.chunk.js.map": "/phonebook-redux/static/js/292.9e2fe9e0.chunk.js.map",
     "270.ed3592b2.chunk.js.map": "/phonebook-redux/static/js/270.ed3592b2.chunk.js.map",
     "60.5d826acf.chunk.js.map": "/phonebook-redux/static/js/60.5d826acf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.766dd710.css",
-    "static/js/main.4aa918c6.js"
+    "static/js/main.48526b55.js"
   ]
 }
